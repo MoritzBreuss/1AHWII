@@ -104,14 +104,22 @@ body {
   grid-row: 2;
 }
 
+.border {
+  background-color: rgba(90, 139, 196, 255);
+  width: 884px;
+  height: 1000px;
+  margin-left: 150px;
+}
+
 
 .Ausland, .Unterüberschrieft1 {
   display: inline; 
 }
 
 .Ausland {
-  margin-left: 275px;
+  margin-left: 175px;
   font-family: "Calibri";
+  
 }
 
 .Unterüberschrieft1 {
@@ -123,6 +131,6 @@ body {
 }
 
 .Links1 {
-  margin-left: 360px;
+  margin-left: 260px;
   line-height: 2;
 }
