@@ -1,0 +1,413 @@
+body {
+  background-color: rgba(82, 134, 193, 255);
+  margin: 0px;
+}
+
+.navbar {
+  background-color: rgb(72, 116, 164);
+  line-height: 2;
+  padding-left: 2px;
+  margin-left: 7%;
+  margin-right: 51.35%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: "Calibri";
+  padding: 5px 12px;
+  font-size: 20px;
+}
+
+.container {
+  white-space: nowrap;
+}
+
+.Wetter,
+.ORFnews,
+.news,
+.Ort,
+.Grad {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.news {
+  color: white;
+  margin: -5px;
+  padding-left: 250px;
+  font-family: "Calibri";
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.ORFnews {
+  vertical-align: middle;
+}
+
+.Ort {
+  color: white;
+  padding-left: 140px;
+  font-family: "Calibri";
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.Wetter {
+  vertical-align: middle;
+  margin-left: -15px;
+}
+
+.Grad {
+  color: white;
+  margin-left: -15px;
+  font-family: "Calibri";
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.border2 {
+  height: 40px;
+  margin-left: 7%;
+  margin-right: 51.35%;
+  background-color: rgb(72, 116, 164);
+}
+
+.grid-container {
+  display: grid;
+  margin-left: 7%;
+  margin-right: 51.35%;
+  gap: 5px;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 150px 150px;
+  grid-template-areas: 
+  "israel flieger flieger mann scheich"
+  "israel kfz tisch tisch scheich ";
+}
+.israel {
+  grid-area: israel;
+}
+.flieger {
+  grid-area: flieger;
+}
+.mann{
+  grid-area: mann;
+}
+.scheich{
+  grid-area: scheich;
+}
+.auto{
+  grid-area: kfz;
+}
+.tisch{
+  grid-area: tisch;
+}
+
+.border {
+  background-color: rgba(90, 139, 196, 255);
+  width: 41.65%;
+  height: 100%;
+  margin-left: 7%;
+}
+
+
+.Ausland, .Unterüberschrieft1 {
+  display: inline; 
+}
+
+.Ausland {
+  margin-left: 175px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px;  
+}
+
+.Unterüberschrieft1 a {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Links1 a{
+  margin-left: 277px;
+  line-height: 2;
+  font-size: 20px;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Inland, .Unterüberschrieft2 {
+  display: inline;
+}
+
+.Inland {
+  margin-left: 175px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px;  
+}
+
+.Unterüberschrieft2 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Ukraine-Krieg, .Unterüberschrieft3 {
+  display: inline;
+}
+
+.Ukraine-Krieg {
+  margin-left: 110px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft3 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.UmweltKlima, .Unterüberschrieft4 {
+  display: inline;
+}
+
+.UmweltKlima {
+  margin-left: 90px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft4 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Wirtschaft, .Unterüberschrieft5 {
+  display: inline;
+}
+
+.Wirtschaft {
+  margin-left: 130px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft5 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Sport, .Unterüberschrieft6 {
+  display: inline;
+}
+
+.Sport {
+  margin-left: 185px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft6 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.MeinBundesland, .Unterüberschrieft7 {
+  display: inline;
+}
+
+.MeinBundesland {
+  margin-left: 75px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft7 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Chronik, .Unterüberschrieft8 {
+  display: inline;
+}
+
+.Chronik {
+  margin-left: 165px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft8 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Religion, .Unterüberschrieft9 {
+  display: inline;
+}
+
+.Religion {
+  margin-left: 160px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft9 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Kultur, .Unterüberschrieft10 {
+  display: inline;
+}
+
+.Kultur {
+  margin-left: 175px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft10 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Gesundheit, .Unterüberschrieft11 {
+  display: inline;
+}
+
+.Gesundheit {
+  margin-left: 130px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft11 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.Science, .Unterüberschrieft12 {
+  display: inline;
+}
+
+.Science {
+  margin-left: 170px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft12 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.EinfacheSprache, .Unterüberschrieft13 {
+  display: inline;
+}
+
+.EinfacheSprache {
+  margin-left: 78px;
+  margin-top: 20px;
+  font-family: "Calibri";
+  font-size: 20px; 
+}
+
+.Unterüberschrieft13 a {
+  margin-left: 35px;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Calibri";
+  text-decoration: none;
+  color:white;
+}
+
+.navbar2 {
+  margin-left: 7%;
+  margin-right: 51.35%;
+  background-color: rgba(31,48,85,255);
+  line-height: 3;
+  font-family:"Calibri";
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 5px 15px;
+  vertical-align: bottom;
+}
+
+
+
+a:visited{
+  text-decoration: none;
+  color: white;
+  font-family: "Calibri";
+  
+}
+
+a:active{
+  color: white;
+  font-family: "Calibri";
+  text-decoration: none;
+}
