@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px); /* Ändere die Höhe der Zeilen nach Bedarf */
+    gap: 10px; /* Abstand zwischen den Rasterzellen */
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+  }
+  
+  .grid-item {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border: 1px solid #fff;
+  }
