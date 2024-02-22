@@ -3,6 +3,9 @@ class Person {
     if (gender !== "m" && gender !== "f") {
       throw new Error("Falsches Geschlecht");
     }
+    if (groesseM <= 0 || gewichtKG <= 0) {
+      throw new Error("Größe und Gewicht müssen positive Zahlen sein");
+    }
     this.name = name;
     this.gender = gender;
     this.groesseM = groesseM;
