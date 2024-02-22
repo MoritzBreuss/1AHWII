@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personen BMI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h2>Person erstellen</h2>
+        <form id="personForm">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="gender">Geschlecht:</label><br />
+          <select id="gender" name="gender" required>
+            <option value="m">Männlich</option>
+            <option value="f">Weiblich</option></select
+          ><br /><br />
+
+          <label for="groesse">Größe (in Metern):</label><br />
+          <input
+            type="number"
+            id="groesse"
+            name="groesse"
+            step="0.01"
+            required
+          /><br /><br />
+
+          <label for="gewicht">Gewicht (in Kilogramm):</label><br />
+          <input
+            type="number"
+            id="gewicht"
+            name="gewicht"
+            step="0.01"
+            required
+          /><br /><br />
+
+          <label for="addToPersonList">Zur Liste hinzufügen:</label>
+          <input
+            type="checkbox"
+            id="addToPersonList"
+            name="addToPersonList"
+          /><br /><br />
+
+          <button type="submit">Person erstellen</button>
+        </form>
+      </div>
+
+      <div class="output-container">
+        <h2>Ausgabe</h2>
+        <div id="output"></div>
+      </div>
+    </div>
+
+    <div id="personList">
+      <h2>Personenliste</h2>
+      <ul id="list"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
