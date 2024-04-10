@@ -10,7 +10,7 @@ fib(7)
 
 console.log(Breakpoint);
 
-class Fib {
+class Fib {#fibs
     constructor() {
         this.#fibs= [0, 1];
     }
