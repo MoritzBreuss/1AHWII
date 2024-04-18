@@ -26,6 +26,13 @@ class Kassa {#geldlade
     
 }
 
+class Artikel {
+    constructor(name, preis) {
+      this.name = name;
+      this.preis = preis;
+    }
+  }
+
 
 const artikel = {'name': 'Cola', 'preis': 1.89};
 
