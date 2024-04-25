@@ -1,6 +1,7 @@
 class Kassa {#geldlade
     constructor() {
         this.#geldlade = 10;
+        
     }
 
     scannen(artikel) {
