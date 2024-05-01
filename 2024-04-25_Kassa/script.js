@@ -1,12 +1,12 @@
 class Kasse {
     #geldlade;
     #gescannteArtikel;
-    #geldGegeben; // Geld, das bezahlt wurde
+    #geldGegeben;
 
     constructor(geldlade) {
         this.#geldlade = geldlade;
         this.#gescannteArtikel = [];
-        this.#geldGegeben = 0; // Initialisierung des bezahlten Geldbetrags
+        this.#geldGegeben = 0; 
     }
      
     scannen(artikel) {
@@ -22,7 +22,7 @@ class Kasse {
         const betrag = this.#geldGegeben;
         if (betrag < preis)
             throw new Error('Nicht genug Geld bezahlt!');
-        return betrag; // Rückgabe des bezahlten Betrags
+        return betrag;
     }
 
     rueckgeld() {
@@ -79,7 +79,7 @@ kasse.scannen(apfel);
 kasse.scannen(kaese);
 kasse.scannen(cola);
 
-const bezahlterBetrag = kasse.bezahlen(); // Bezahlen und den bezahlten Betrag erhalten
+const bezahlterBetrag = kasse.bezahlen(); 
 
 console.log("Gesamtpreis:", kasse.zubezahlenderBetrag());
 console.log("Bezahlter Betrag:", bezahlterBetrag);
